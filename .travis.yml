@@ -24,8 +24,8 @@ install:
   - npm install
 
 before_script:
-  - git config --global user.name "viko16"
-  - git config --global user.email "16viko@gmail.com"
+  - git config --global user.name "gccpacman"
+  - git config --global user.email "huyunyan.cn@gmail.com"
   - git clone --branch gh-pages https://${GH_REF} dist
 
 script:
@@ -43,5 +43,5 @@ after_success:
 # Note: you should set Environment Variables here or 'Settings' on travis-ci.org
 env:
   global:
-    - GH_REF: github.com/viko16/vue-ghpages-blog.git
+    - GH_REF: github.com/gccpacman/gccpacman.github.io.git
     # - GH_TOKEN: 'Your GitHub Personal access tokens, via https://github.com/settings/tokens'
