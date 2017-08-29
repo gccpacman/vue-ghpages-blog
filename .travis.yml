@@ -34,7 +34,7 @@ script:
 after_success:
   - npm run build
   - cd dist
-  - echo "ukn.me" > CNAME
+  - echo "gccpacman.github.io" > CNAME
   - cp index.html 404.html
   - git add --all .
   - git commit --message "Automatically update from travis-ci"
@@ -43,5 +43,5 @@ after_success:
 # Note: you should set Environment Variables here or 'Settings' on travis-ci.org
 env:
   global:
-    - GH_REF: github.com/gccpacman/gccpacman.github.io.git
+    - GH_REF: github.com/gccpacman/vue-ghpages-blog.git
     # - GH_TOKEN: 'Your GitHub Personal access tokens, via https://github.com/settings/tokens'
