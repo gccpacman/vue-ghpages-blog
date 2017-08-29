@@ -1,6 +1,6 @@
 const Nightmare = require('nightmare')
 
-const base = 'http://localhost:8081/'
+const base = 'http://127.0.0.1:8081/'
 
 describe('List', function () {
   this.timeout('10s')
