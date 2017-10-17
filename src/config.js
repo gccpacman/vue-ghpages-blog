@@ -2,13 +2,13 @@ module.exports = {
   /**
    * Output
    */
-  blogTitle: 'Do you know pacman?',
+  blogTitle: 'Calm down and do code',
   favicon: './static/favicon.png',
 
   /**
    * API
    */
-  repo: 'gccpacman/ghpage_posts', // Which repository you stored the posts
-  path: 'posts',
+  repo: 'gccpacman/gccpacman.github.io', // Which repository you stored the posts
+  path: '_posts',
   branch: 'master'
 }
