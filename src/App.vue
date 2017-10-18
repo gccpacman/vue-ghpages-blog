@@ -3,8 +3,8 @@
     <header class="header">
       <router-link to="/">{{ title }}</router-link>
       <div style="clear: both"></div>
-      <search-bar v-if="isPageList"></search-bar>
     </header>
+    <search-bar v-if="isPageList"></search-bar>
     <router-view></router-view>
     <footer-bar></footer-bar>
   </div>
