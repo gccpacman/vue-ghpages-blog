@@ -8,7 +8,7 @@
           {{ title }}
         </router-link>
         <br>
-        <time pubdate="pubdate" :datetime="date | formatDate" :title="date | formatDate" class="item-date">{{ date | timeago }}</time>
+        <time pubdate="pubdate" :datetime="date | formatDate" :title="date | formatDate" class="item-date">{{ date | cnDate }}</time>
       </li>
     </ol>
   </section>

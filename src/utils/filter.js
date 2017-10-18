@@ -13,4 +13,13 @@ export default (Vue) => {
   Vue.filter('formatDate', date => {
     return new Date(date).toLocaleDateString()
   })
+
+  // chinese format date
+  Vue.filter('cnDate', date => {
+    var dateobj = new Date(date)
+    var year = dateobj.getFullYear()
+    var month = dateobj.getMonth()
+    var day = dateobj.getDate()
+    return year + '年' + month + '月' + day + '日'
+  })
 }
